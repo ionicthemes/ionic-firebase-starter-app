@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>Firebase CRUD</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="openNewUserModal()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="list-mini-content">
+  <div class="list-mini">
+    <ion-list>
+      <ion-item *ngFor="let item of items" (click)="viewDetails(item.payload.doc.id,item.payload.doc.data())">
+        <ion-thumbnail item-start>
+          <img [src]="item.payload.doc.data().image">
+        </ion-thumbnail>
+        <h2>{{item.payload.doc.data().title}}</h2>
+        <button ion-button clear item-end>Details</button>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
+<ion-footer (click)="logout()">
+  <ion-toolbar color="secondary">
+    <ion-title>Log out</ion-title>
+  </ion-toolbar>
+</ion-footer>

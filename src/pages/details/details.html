@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>
+      Update Task
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="user-image-content">
+    <ion-row no-padding class="user-image-row">
+      <ion-col no-padding col-6 offset-3>
+        <img [src]="image" alt="this is the image"/>
+      </ion-col>
+    </ion-row>
+    <ion-row no-padding class="user-image-row">
+      <ion-col no-padding width-60>
+        <button class="image-action-button" ion-button outline block small (click)="openImagePicker()">Change Picture</button>
+      </ion-col>
+    </ion-row>
+  </div>
+  <form class="new-user-form" [formGroup]="validations_form" (ngSubmit)="onSubmit(validations_form.value)">
+    <ion-item>
+      <ion-label floating color="primary">Title</ion-label>
+      <ion-input type="text" formControlName="title" class="form-control" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating color="primary">Description</ion-label>
+      <ion-input type="text" formControlName="description" class="form-control" required></ion-input>
+    </ion-item>
+    <button class="form-action-button" ion-button block type="submit" [disabled]="!validations_form.valid">Save</button>
+  </form>
+  <button class="form-action-button" ion-button block color="danger" (click)="delete()">Delete</button>
+
+</ion-content>

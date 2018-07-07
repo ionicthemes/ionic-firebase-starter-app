@@ -1,0 +1,25 @@
+page-register {
+  .error-message
+  {
+    color: #bf3e3e;
+  }
+
+  .success-message
+  {
+    color: green;
+  }
+
+  .go-to-login
+  {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .submit-btn
+  {
+    border-radius: 6px;
+	  font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+}
