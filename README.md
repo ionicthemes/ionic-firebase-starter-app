@@ -13,7 +13,6 @@ These are some screenshots of the ionic 3 app we are going to build in this Ioni
 
 ![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/build-a-complete-ionic-app-integrated-with-firebase/ionic-firebase-login.png)
 ![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/build-a-complete-ionic-app-integrated-with-firebase/ionic-firebase-register.png)
-![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/build-a-complete-ionic-app-integrated-with-firebase/ionic-firebase-login-2.png)
 ![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/build-a-complete-ionic-app-integrated-with-firebase/ionic-firebase-feed.png)
 ![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/build-a-complete-ionic-app-integrated-with-firebase/ionic-firebase-create.png)
 ![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/build-a-complete-ionic-app-integrated-with-firebase/ionic-firebase-update.png)
