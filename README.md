@@ -15,9 +15,11 @@ For the Ionic 3 code please go [here] (https://github.com/ionicthemes/ionic-fire
 
 These are some screenshots of the ionic 4 example app we are going to build in this Ionic + Firebase tutorial:
 
-![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/create-account.jpeg)
-![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/login.jpeg)
-![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/no-tasks.jpeg)
-![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/new-task.jpeg)
-![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/tasks-list.jpeg)
-![demo](https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/update-task.jpeg)
+<div>
+  <img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/create-account.jpeg" width="270">
+<img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/login.jpeg" width="270">
+<img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/no-tasks.jpeg" width="270">
+<img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/new-task.jpeg" width="270">
+<img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/tasks-list.jpeg" width="270">
+<img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/update-task.jpeg" width="270">
+</div>
