@@ -1,60 +1,50 @@
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-import { SplashScreen } from '@ionic-native/splash-screen';
-import { StatusBar } from '@ionic-native/status-bar';
+import { RouteReuseStrategy } from '@angular/router';
 
-import { MyApp } from './app.component';
-import { LoginPage } from '../pages/login/login';
-import { RegisterPage } from '../pages/register/register';
-import { MenuPage } from '../pages/menu/menu';
-import { DetailsPage } from '../pages/details/details';
-import { NewTaskModalPage } from '../pages/new-task-modal/new-task-modal';
+import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { StatusBar } from '@ionic-native/status-bar/ngx';
 
-import { ImagePicker } from '@ionic-native/image-picker';
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 
-import { FirebaseService } from '../pages/services/firebase.service';
-import { AuthService } from '../pages/services/auth.service';
+import { ImagePicker } from '@ionic-native/image-picker/ngx';
+import { WebView } from '@ionic-native/ionic-webview/ngx';
 
-import { AngularFireModule } from 'angularfire2';
-import { AngularFirestoreModule } from 'angularfire2/firestore';
-import { AngularFireStorageModule } from 'angularfire2/storage';
-import { AngularFireAuthModule } from 'angularfire2/auth';
-import { environment } from '../environment/environment';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule, FirestoreSettingsToken } from '@angular/fire/firestore';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+
+import { environment } from '../environments/environment';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+// import { NewTaskModalPage } from './new-task-modal/new-task-modal.page';
+
 
 @NgModule({
-  declarations: [
-    MyApp,
-    LoginPage,
-    RegisterPage,
-    MenuPage,
-    NewTaskModalPage,
-    DetailsPage
-  ],
+  declarations: [AppComponent],
+  // declarations: [AppComponent, NewTaskModalPage],
+  // entryComponents: [NewTaskModalPage],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule,
-    AngularFireAuthModule,
-    AngularFireStorageModule
-  ],
-  bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp,
-    LoginPage,
-    RegisterPage,
-    MenuPage,
-    NewTaskModalPage,
-    DetailsPage
+    IonicModule.forRoot(),
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    AngularFireModule.initializeApp(environment.firebase), // imports firebase/app
+    AngularFirestoreModule, // imports firebase/firestore
+    AngularFireAuthModule, // imports firebase/auth
+    AngularFireStorageModule, // imports firebase/storage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     ImagePicker,
-    FirebaseService,
-    AuthService,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
-  ]
+    WebView,
+    { provide: FirestoreSettingsToken, useValue: {} },
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+  ],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
