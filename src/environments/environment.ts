@@ -4,13 +4,13 @@
 
 export const environment = {
   production: false,
-  firebase: {
-    apiKey: "AIzaSyDC08_wXiXI_Y61gPj_eYKUdFfBOWxyXwg",
-    authDomain: "ionicmap-1384.firebaseapp.com",
-    databaseURL: "https://ionicmap-1384.firebaseio.com",
-    projectId: "ionicmap-1384",
-    storageBucket: "ionicmap-1384.appspot.com",
-    messagingSenderId: "781751966978"
+  firebase : {
+    apiKey: "YOUR_CREDENTIALS_HERE",
+    authDomain: "YOUR_CREDENTIALS_HERE",
+    databaseURL: "YOUR_CREDENTIALS_HERE",
+    projectId: "YOUR_CREDENTIALS_HERE",
+    storageBucket: "YOUR_CREDENTIALS_HERE",
+    messagingSenderId: "YOUR_CREDENTIALS_HERE"
   }
 };
 

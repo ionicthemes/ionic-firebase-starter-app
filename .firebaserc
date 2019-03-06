@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "demo": "ionic-4-firebase-crud-demo",
+    "default": "ionic-4-firebase-crud-demo"
+  }
+}

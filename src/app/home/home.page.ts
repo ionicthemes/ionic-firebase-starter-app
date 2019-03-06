@@ -11,40 +11,36 @@ import { Router, ActivatedRoute } from '@angular/router';
 export class HomePage implements OnInit {
 
   items: Array<any>;
-  loadingElement: any;
 
   constructor(
-    public loadingController: LoadingController,
+    public loadingCtrl: LoadingController,
     private authService: AuthService,
     private router: Router,
     private route: ActivatedRoute
   ) { }
 
   ngOnInit() {
-
     if (this.route && this.route.data) {
-      this.presentLoader();
-      this.route.data.subscribe(routeData => {
-        routeData['data'].subscribe(data => {
-          this.dismissLoader();
-          this.items = data;
-        })
-      })
+      this.getData();
     }
   }
 
-  async presentLoader() {
-    this.loadingElement = await this.loadingController.create({
-      message: 'Loading ...'
+  async getData(){
+    const loading = await this.loadingCtrl.create({
+      message: 'Please wait...'
     });
+    this.presentLoading(loading);
 
-    await this.loadingElement.present();
+    this.route.data.subscribe(routeData => {
+      routeData['data'].subscribe(data => {
+        loading.dismiss();
+        this.items = data;
+      })
+    })
   }
 
-  async dismissLoader() {
-    if (this.loadingElement) {
-      await this.loadingElement.dismiss();
-    }
+  async presentLoading(loading) {
+    return await loading.present();
   }
 
   logout(){
