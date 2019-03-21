@@ -32,3 +32,14 @@ These are some screenshots of the ionic 4 example app we are going to build in t
 <img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/tasks-list.jpeg" width="270">
 <img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/update-task.jpeg" width="270">
 </div>
+
+
+
+### Get a premium Ionic 4 Starter App
+Did you know that we recently released [Ionic 4 Full Starter App](https://ionicthemes.com/product/ionic4-full-starter-app)? It's an ionic 4 template that you can use to jump start your Ionic app development and save yourself hundreds of hours of design and development.
+
+It is also a PWA and has a score of 100 in lighthouse. Try it on your phone as a PWA to see the magic!
+
+It also has lots of forms and validations examples.
+
+<img src="https://s3-us-west-2.amazonaws.com/ionicthemes/cover_images/redesign/ionic4-full-starter-app.jpg"/>
