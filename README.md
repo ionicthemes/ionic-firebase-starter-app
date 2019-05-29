@@ -8,9 +8,9 @@ As a bonus you will also learn how to use Firebase Storage to store images or fi
 
 **You can use this FREE Ionic Firebase Starter App as a base to create your Ionic App with Firebase backend.**
 
-For the Ionic 3 code please go [here] (https://github.com/ionicthemes/ionic-firebase-starter-app/tree/master/ionic-3).
+For the Ionic 3 code please go [here](https://github.com/ionicthemes/ionic-firebase-starter-app/tree/master/ionic-3).
 
-[Read the complete Build a complete Ionic App with Firebase Tutorial] (https://ionicthemes.com/tutorials/about/building-a-ionic-firebase-app-step-by-step)
+[Read the complete Build a complete Ionic App with Firebase Tutorial](https://ionicthemes.com/tutorials/about/building-a-ionic-firebase-app-step-by-step)
 
 ### Set up
 run `npm install` to install the project dependencies.
