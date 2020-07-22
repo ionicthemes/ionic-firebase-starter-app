@@ -1,6 +1,6 @@
-## Build a Complete Ionic 4 Firebase App
+## Build a Complete Ionic Firebase App
 
-In this ionic firebase tutorial we will show you how to create a firebase application to perform all CRUD operations in an ionic 4 application.
+In this ionic firebase tutorial we will show you how to create a firebase application to perform all CRUD operations in an ionic application.
 
 In this ionic example you will see how to Create, Read, Update and Delete tasks using Firebase Firestore Database.
 
@@ -19,10 +19,10 @@ run `ionic serve` to run the project locally.
 You will have to create your Firebase project and add the project configurations to the environment.ts file. [Read the tutorial to see how to do this](https://ionicthemes.com/tutorials/about/building-a-ionic-firebase-app-step-by-step).
 
 ### Demo
-Test the live demo in https://ionic-4-firebase-crud-demo.firebaseapp.com
+[Test the live demo](https://ionic-4-firebase-crud-demo.firebaseapp.com)
 
 ### Screenshots
-These are some screenshots of the ionic 4 example app we are going to build in this Ionic + Firebase tutorial:
+These are some screenshots of the ionic example app we are going to build in this Ionic Firebase Tutorial:
 
 <div>
   <img src="https://s3-us-west-2.amazonaws.com/ionicthemes/tutorials/screenshots/building-a-ionic-firebase-app-step-by-step/ionic-4/create-account.jpeg" width="270">
@@ -35,11 +35,8 @@ These are some screenshots of the ionic 4 example app we are going to build in t
 
 
 
-### Get a premium Ionic 4 Starter App
-Did you know that we recently released [Ionic 4 Full Starter App](https://ionicthemes.com/product/ionic4-full-starter-app)? It's an ionic 4 template that you can use to jump start your Ionic app development and save yourself hundreds of hours of design and development.
+### Get a premium Ionic Starter App
+Did you know that we recently released [Ionic Full Starter App](https://ionicthemes.com/product/ionic5-full-starter-app-pro-version)? It's an ionic 5 template that you can use to jump start your Ionic app development and save yourself hundreds of hours of design and development. 
+This template includes a complete integration with Firebase. [Check it out!](https://ionicthemes.com/product/ionic5-full-starter-app-pro-version/live-preview)
 
-It is also a PWA and has a score of 100 in lighthouse. Try it on your phone as a PWA to see the magic!
-
-It also has lots of forms and validations examples.
-
-<img src="https://s3-us-west-2.amazonaws.com/ionicthemes/cover_images/redesign/ionic4-full-starter-app.jpg"/>
+<img src="https://ionicthemes.s3-us-west-2.amazonaws.com/cover_images/redesign/ionic5-full-starter-app-pro.jpg"/>
